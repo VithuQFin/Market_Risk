@@ -15,6 +15,6 @@ Ce projet propose plusieurs implémentations permettant d'analyser les risques d
 3. Évaluation et gestion des options :
    - Calcul du prix d'un call européen avec le modèle Black-Scholes.
    - Simulation Monte Carlo des prix d'actifs financiers.
-   - *alcul de la VaR des options pour estimer les pertes potentielles sous différentes conditions de marché.
+   - Calcul de la VaR des options pour estimer les pertes potentielles sous différentes conditions de marché.
 
 ---
