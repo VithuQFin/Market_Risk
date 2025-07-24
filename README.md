@@ -1,20 +1,30 @@
 # 📊 Market Risk Analysis
 
 ## 📌 Description
-Ce projet propose plusieurs implémentations permettant d'analyser les risques de marché. Il est structuré autour de trois grands axes :
 
-1. Impact microstructurel des marchés financiers :
-   - Étude de l'impact permanent et transitoire des ordres sur le prix des actifs.
-   - Estimation par régression linéaire et modélisation via l'algorithme Almgren-Chriss pour une exécution optimale.
+This project provides several implementations for analyzing **market risk**, structured around three main areas:
 
-2. Estimation et validation de la Value-at-Risk (VaR) :
-   - Méthodes empiriques (fonction de répartition empirique).
-   - Estimation par noyaux (KDE) pour une meilleure approximation des distributions.
-   - Validation de la VaR avec des données hors échantillon.
+---
 
-3. Évaluation et gestion des options :
-   - Calcul du prix d'un call européen avec le modèle Black-Scholes.
-   - Simulation Monte Carlo des prix d'actifs financiers.
-   - Calcul de la VaR des options pour estimer les pertes potentielles sous différentes conditions de marché.
+### 1. Microstructural Impact of Financial Markets
+
+- Study of **permanent and temporary price impact** caused by order flow.
+- Linear regression estimation and modeling using the **Almgren-Chriss algorithm** for optimal execution strategies.
+
+---
+
+### 2. Value-at-Risk (VaR) Estimation and Validation
+
+- **Empirical methods** based on the empirical cumulative distribution function (ECDF).
+- **Kernel Density Estimation (KDE)** to better approximate the return distribution.
+- **Out-of-sample validation** of the estimated VaR.
+
+---
+
+### 3. Option Pricing and Risk Management
+
+- **European call option pricing** using the **Black-Scholes model**.
+- **Monte Carlo simulations** of financial asset price paths.
+- **VaR computation on options** to assess potential losses under different market scenarios.
 
 ---
