@@ -1,7 +1,3 @@
-# Ignorer tous les fichiers CSV et Excel
 *.csv
 *.xlsx
 *.xls
-
-# Ignorer un dossier spécifique (si tes datasets sont dans un dossier)
-datasets/
